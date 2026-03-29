@@ -1,4 +1,6 @@
+hi CursorLine   guibg=#12121f gui=NONE cterm=NONE
 highlight clear
+
 if exists('syntax_on')
   syntax reset
 endif
