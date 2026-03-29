@@ -1,4 +1,3 @@
-hi CursorLine   guibg=#12121f gui=NONE cterm=NONE
 highlight clear
 
 if exists('syntax_on')
@@ -7,6 +6,7 @@ endif
 let g:colors_name = 'phosphor-burn'
 
 set background=dark
+hi CursorLine   guibg=#12121f gui=NONE cterm=NONE
 
 " ── Base ────────────────────────────────────────────────────
 hi Normal       guifg=#c7d0d9 guibg=#0a0a0f
