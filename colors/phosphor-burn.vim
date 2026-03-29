@@ -6,7 +6,6 @@ endif
 let g:colors_name = 'phosphor-burn'
 
 set background=dark
-hi CursorLine   guibg=#12121f gui=NONE cterm=NONE
 
 " ── Base ────────────────────────────────────────────────────
 hi Normal       guifg=#c7d0d9 guibg=#0a0a0f
@@ -19,7 +18,7 @@ hi VertSplit    guifg=#1a1a2e guibg=NONE
 hi ColorColumn  guibg=#0e0e18
 
 " ── Cursor / selection ──────────────────────────────────────
-hi CursorLine   guibg=#12121f cterm=NONE
+hi CursorLine   guibg=#12121f gui=NONE cterm=NONE
 hi CursorLineNr guifg=#ff2eaa gui=bold
 hi LineNr       guifg=#2a2a4a
 hi Visual       guibg=#2a1535
