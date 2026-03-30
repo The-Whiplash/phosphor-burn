@@ -1,11 +1,19 @@
 highlight clear
 
+if has ('termguicolors')
+	set termguicolors
+endif
+
 if exists('syntax_on')
   syntax reset
 endif
+
 let g:colors_name = 'phosphor-burn'
 
 set background=dark
+
+set t_ZH=[3m
+set t_ZR=[23m
 
 " ── Base ────────────────────────────────────────────────────
 hi Normal       guifg=#c7d0d9 guibg=#0a0a0f
