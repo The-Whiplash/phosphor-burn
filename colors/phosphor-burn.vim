@@ -32,7 +32,7 @@ hi LineNr       guifg=#2a2a4a
 hi Visual       guibg=#2a1535
 hi Search       guifg=#0a0a0f guibg=#00f0ff gui=bold
 hi IncSearch    guifg=#0a0a0f guibg=#ff2eaa gui=bold
-hi MatchParen   guifg=#0a0a0f guibg=#ff2eaa gui=bold
+hi MatchParen   guifg=#00f0ff guibg=#2a2a4a gui=bold
 
 " ── Statusline / tabs ───────────────────────────────────────
 hi StatusLine   guifg=#00f0ff guibg=#12121f gui=bold
